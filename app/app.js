@@ -4,7 +4,7 @@ var moment = require('moment');
 var axios = require('axios');
 
 let formData = querySrting.stringify({
-    data: JSON.stringify({ acctname: "ghdrohq", username: "717206", password: "Beenrestored13!#" })
+    data: JSON.stringify({ acctname: "ghdrohq", username: "717206", password: "" })
 });
 
 login();
